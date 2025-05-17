@@ -6,10 +6,10 @@ df = pd.read_csv("iris.csv")
 
 # Define expected types
 expected_types = {
-    "sepal length (cm)": float,
-    "sepal width (cm)": float,
-    "petal length (cm)": float,
-    "petal width (cm)": float,
+    "sl": float,
+    "sw": float,
+    "pl": float,
+    "pw": float,
     "species": str
 }
 
